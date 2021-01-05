@@ -3,17 +3,17 @@
 @import "abstracts/variables";
 
 // ----------- Base Section      -------------
-@import "base/animations" ;
-@import "base/base" ;
-@import "base/typography" ;
-@import "base/utilities" ;
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
 // ------------ Components Section ------------
 
-@import "components/button" ;
+@import "components/button";
 //-----------  Layouts Section --------------
-@import "layouts/navbar" ;
-@import "layouts/showcase" ;
-@import "layouts/testimonial" ;
-@import "layouts/_blog" ;
-@import "layouts/_footer" ;
+@import "layouts/_navbar";
+@import "layouts/_showcase";
+@import "layouts/_testimonial";
+@import "layouts/_blog";
+@import "layouts/_footer";

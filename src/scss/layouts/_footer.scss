@@ -26,7 +26,6 @@
 
     &::placeholder {
       color: #000;
-      text-transform: capitalize;
     }
   }
 
@@ -35,8 +34,8 @@
     color: white;
     text-transform: capitalize;
     font-size: 1.2rem;
-    background-color: #f59842;
-    padding: 12px 20px;
+    background-color: #b49777;
+    padding: 11px 20px;
     margin-left: -3px;
   }
 }
@@ -61,46 +60,24 @@
     color: #fff;
     text-align: center;
     letter-spacing: 1px;
-    margin-left: 5px;
-    padding-left: 1rem;
+    height: 2rem;
+    // width: 100%;
+    transition: all 0.3s ease-in;
 
+    &:hover {
+      background-color: #272721;
+      box-shadow: $shadow-light;
+      transform: scaleY(1.1) translateY(-5px);
+    }
+
+    .div {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
     @media only screen and(max-width: $bp-small) {
       &:not(:last-child) {
         margin-bottom: 0.7rem;
       }
     }
-  }
-}
-
-.footer_list-item {
-  display: block;
-  padding: 1rem 1rem;
-  height: 100%;
-  width: 100%;
-  transition: all 0.3s ease-in;
-
-  &:hover {
-    background-color: #272721;
-    box-shadow: $shadow-light;
-    transform: scaleY(1.1) translateY(-5px);
-  }
-}
-
-.footer_text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-transform: capitalize;
-  text-align: center;
-  font-size: 1.2rem;
-
-  h3 {
-    margin-top: 5px;
-    color: #fe203e;
-  }
-
-  h4 {
-    margin-top: 1rem;
   }
 }
