@@ -47,6 +47,84 @@ html {
       grid-template-columns: repeat(1fr, 6);
 }
 
+.bgImg {
+  background-image: url("/src/images/robert-burke-3l43HYrFDEI-unsplash.jpg");
+  z-index: 900;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+}
+
+.testimonial__header h1 {
+  font-family: "Montserrat", Sens-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.testimonial__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonial__cards .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30rem;
+  width: 25rem;
+  color: white;
+  text-align: center;
+}
+
+.testimonial__cards .cards__icon {
+  height: 6rem;
+  width: 6rem;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  background-color: transparent;
+}
+
+.testimonial__cards .cards__description,
+.testimonial__cards .cards h2 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", Sens-serif;
+}
+
+.testimonial__cards .cards__title {
+  font-style: italic;
+  font-family: "Nunito", Sens-serif;
+}
+
 .blogs {
   display: -ms-grid;
   display: grid;

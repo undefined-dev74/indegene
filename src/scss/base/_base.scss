@@ -37,10 +37,9 @@ html {
 }
 
 body {
-  
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(1fr, 6);
+  display: grid;
+  grid-template-columns: repeat(1fr, 6);
 }

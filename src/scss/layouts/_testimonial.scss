@@ -1,0 +1,57 @@
+.bgImg {
+  background-image: url("/src/images/robert-burke-3l43HYrFDEI-unsplash.jpg");
+  z-index: 900;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  overflow: hidden;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.testimonial__header h1 {
+  font-family: $font-secondary;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.testimonial__cards {
+  display: flex;
+  justify-content: center;
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 25rem;
+    color: white;
+    text-align: center;
+
+    &__icon {
+      height: 6rem;
+      width: 6rem;
+      justify-self: start;
+      background-color: transparent;
+    }
+
+    &__description,
+    h2 {
+      font-size: 1.5rem;
+      font-family: $font-secondary;
+    }
+
+    &__title {
+      font-style: italic;
+      font-family: $font-primary;
+    }
+  }
+}
